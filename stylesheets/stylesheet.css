@@ -47,6 +47,10 @@ body {
     text-transform: capitalize;
 }
 
+.header p.links {
+    border: none;
+}
+
 .header p a {
     color: inherit;
     text-decoration: none;
