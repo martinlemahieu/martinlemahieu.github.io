@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000;
+    background-color: #eee;
+}
+
+.header {
+    width: 100%;
+    margin: 32px auto;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .header {
+        width: 750px;
+        margin: 100px auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .header {
+        width: 970px;
+    }
+}
+
+.header__picture {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #000;
+    border-radius: 100%;
+}
+
+@media (min-width: 768px) {
+    .header__picture {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.header__title {
+    margin: 0;
+    margin-top: 24px;
+    padding: 0;
+    font-size: 36px;
+}
+
+@media (min-width: 768px) {
+    .header__title {
+        margin-top: 0;
+        font-size: 50px;
+    }
+}
+
+.header__description {
+    margin: 8px 0 32px 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .header__description {
+        margin: 8px 0 64px 0;
+    }
+}
+
+.header__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__link {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.header__link svg {
+    width: 42px;
+    height: 42px;
+}
+
+.header__link--github svg path {
+    fill: #181717;
+}
+
+.header__link--twitter svg path {
+    fill: #1DA1F2;
+}
+
+.header__link--spotify svg path {
+    fill: #1ED760;
+}
